@@ -1,0 +1,1137 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    width: auto;
+    height: auto;
+    
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+
+.navbar-j {
+    position: absolute;
+    width: 100%;
+    max-height: 15%;
+    left: 0px;
+    top: 3px;
+
+background: rgba(220, 233, 240, 0.06);
+
+    
+}
+
+
+
+.navitems-j{
+    align-items: right;
+    justify-content: space-between;
+    display:flex;
+    text-align: right;
+    margin-left: 50%;
+    margin-top: 1.3%;
+
+
+}
+
+.navitems-j li {
+    list-style-type:none;
+    display:inline-block;
+    list-style-type:none;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 1.5%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+
+}
+
+
+
+.logo {
+    position: absolute;
+    width: 68px;
+    height: 62px;
+    left: 50px;
+    top: 5px;
+    border-radius: 176px;
+}
+
+.title{
+    position: absolute;
+    width: 606px;
+    height: 85px;
+    left: -73px;
+    top: 20px;
+
+    font-family: 'McLaren', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.245em;
+
+    color: #000000;
+}
+
+
+
+.navitems-j li a{
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.navitems-j a:hover {
+    background-color: #cec5ce; 
+  }
+
+
+
+.slider-j {
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+    margin: auto;
+    margin-top: 1.5%;
+  }
+
+
+
+.slide-j {
+  width: 100%;
+  height: 100%;
+}
+
+  .home_h1{
+    position:absolute;
+    display: block;
+    width: 550px;
+    height: 80px;
+    top: 163px;
+    left: 35%;
+
+    
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.245em;
+    
+    color: #000000;
+}
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 350%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot-container {
+    text-align: center;
+    margin-top: -15%;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+ 
+
+.hmdg2{
+    position: absolute;
+      width: 401px;
+      height: 502px;
+      left: 136px;
+      top: 850%;
+
+}
+
+.hmdg2 img:hover {
+  transform: translate(-5px, 5px);
+}
+
+.home-h4{
+  position:absolute;
+  width: 50%;
+height: 150%;
+margin-left: 40%;
+margin-top: 11%;
+margin-right: 5%;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.25em;
+
+color: #000000;
+
+}
+
+.home-para{
+  position: absolute;
+width: auto;
+height:auto;
+margin-left: 45%;
+margin-top: 17%;
+margin-right: 12%;
+
+font-family: 'Pridi';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+}
+
+.footers-main{                                                                                                                                                                                                                                                                                                                
+  margin-top:500%;                                                                                                                                                                                                                                                                                                               
+}
+
+
+.footer1{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 280px;
+    top:200%;
+
+    background: #151E2D;
+    backdrop-filter: blur(50px);
+}
+.footer2{
+  position: absolute;
+  display:flex;
+  width: 100%;
+  height: 200px;
+  margin-top: -40%;
+  margin-bottom: 0%;
+                                                                                                                                                                                                                                                           
+ background: rgba(27, 27, 27, 0.96);
+}
+
+.footitems li{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 20px;
+    gap: 397px;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+                                        
+                                        
+    list-style-type:none;
+    display:inline-block;
+    list-style-type:none;
+    text-align:justify;
+    color: #FFFFFF;
+    letter-spacing: 0.06em
+}
+                                                                
+.list-header {
+    list-style-type:none;
+    display:inline-block;
+    list-style-type:none;
+    text-align:justify;
+    color: #FFFFFF;
+    letter-spacing: 0.26em;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 1%;
+                                                                                  
+}
+                                                                                  
+.list-item {
+    font-family: 'Maitree', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+                                                                                         
+    line-height: 21px;                                                                                           
+    letter-spacing: 0.245em;
+                                                                                                
+    list-style-type:none;                                                                                               
+    padding: 2%;                                                                                                  
+    margin-left: 2%;                                                                                                                                                                                                 
+    color: #FFFFFF;
+ }
+                                                                                                        
+                                                                                                        
+ .list {
+                                                                                                          
+  width: 100%;
+                                                                                                            
+  margin-left: 14%;
+                                                                                                            
+}
+                                                                                                            
+                                                                                                            
+.quicklinks{
+                                                                                                                
+  display: flex;                                                                                                                  
+  flex-direction: column;                                                                                                                     
+  align-items: flex-start;                                                                                                                         
+  width: 25%;                                                                                                                    
+  padding: 15px;
+  gap: 13px;                                                                                                                                   
+  margin-left: 14%;
+                                                                                                                                               
+  /* margin-right: 9%; */
+                                                                                                                                            
+   font-family: 'Maitree', serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 21px;
+   text-align: center;
+   letter-spacing: 0.245em;                                                                                                                                                                      
+   list-style-type:none;                                                                                                                                                                         
+                                                                                                                                                            
+   color: #FFFFFF;                                                                                                                                                                                   
+   }
+                                                                                                                                                                                    
+ .ourservices{
+     display: flex;
+     flex-direction: column;                                                                                                                                                                                           
+     align-items:flex-start;
+     padding: 15px;
+     gap: 20px;
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+     font-family: 'Maitree', serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 21px;
+     text-align: center;
+     letter-spacing: 0.245em;
+     list-style-type:none;
+     color: #FFFFFF;                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                           
+ }
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                            
+
+                                                                                                                                                                                                                                                                
+.footer2 p{
+    position: absolute;
+    font-family: 'Maitree', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.245em;
+    left: 38%;
+    top:20%;
+                                                                                                                                                                                                                                                                                                        
+    color: #FFFFFF;                                                                                                                                                                                                                                                                                                  
+  }
+                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                        
+  .footer2 p a{                                                                                                                                                                                                                                                                                                      
+    text-decoration: none;                                                                                                                                                                                                                                                                                                              
+    color:#ffffff;
+                                                                                                                                                                                                                                                                                                                
+  }
+                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                
+
+                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                            
+  .simg1{
+    max-width: 100%;
+    margin-top: 1.5%;
+   /* height: auto; */
+    overflow: hidden;
+}
+                                                                                                                                                                                                                                                                                                                          
+.simg1 img {                                                                                                                                                                                                                                                                                                                           
+  width: 100%;                                                                                                                                                                                                                                                                                                                          
+  /* height: 100%; */                                                                                                                                                                                                                                                                                                                            
+  margin-top: -40%;
+                                                                                                                                                                                                                                                                                                                               
+}
+
+                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                
+.simg2{
+                                                                                                                                                                                                                                                                                                                                 
+  max-width: 100%;                                                                                                                                                                                                                                                                                                                                   
+  height: auto;                                                                                                                                                                                                                                                                                                                                      
+  overflow: hidden;
+                                                                                                                                                                                                                                                                                                                                    
+}
+                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                      
+.simg2 img {                                                                                                                                                                                                                                                                                                                                      
+  width: 105%;                                                                                                                                                                                                                                                                                                                                       
+  height: 100%;                                                                                                                                                                                                                                                                                                                                         
+  margin: -10px -5px 0px -10px
+                                                                                                                                                                                                                                                                                                                                           
+}
+                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                  
+.imgnsbm{                                                                                                                                                                                                                                                                                                                                                
+  position: relative;                                                                                                                                                                                                                                                                                                                                                 
+  align-items: center;                                                                                                                                                                                                                                                                                                                                                    
+  /* width: 80%; */                                                                                                                                                                                                                                                                                                                                                    
+  /* height: 85px; */                                                                                                                                                                                                                                                                                                                                                    
+  /* left: 252px; */                                                                                                                                                                                                                                                                                                                                                    
+  margin-top: 10%;
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                        
+}
+                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                       
+.imgnsbm img {                                                                                                                                                                                                                                                                                                                                                       
+  display: block;                                                                                                                                                                                                                                                                                                                                                         
+  margin-left: auto;                                                                                                                                                                                                                                                                                                                                                         
+  margin-right: auto;                                                                                                                                                                                                                                                                                                                                                         
+  width: 50%;                                                                                                                                                                                                                                                                                                                                                                
+  border-radius: 20px;                                                                                                                                                                                                                                                                                                                                                       
+}
+                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                  
+.header2{
+                                                                                                                                                                                                                                                                                                                                                                    
+  position: absolute;                                                                                                                                                                                                                                                                                                                                                                 
+  width:100%;                                                                                                                                                                                                                                                                                                                                                                
+  height: 80px;                                                                                                                                                                                                                                                                                                                                                                   
+  left: 0px;                                                                                                                                                                                                                                                                                                                                                                  
+  top: 79px;                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                    
+  background: rgba(60, 100, 108, 0.78);                                                                                                                                                                                                                                                                                                                                                                   
+}
+                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                    
+.header2 p{
+                                                                                                                                                                                                                                                                                                                                                                      
+  position: absolute;                                                                                                                                                                                                                                                                                                                                                                     
+  width: 846px;                                                                                                                                                                                                                                                                                                                                                                        
+  height: 25px;                                                                                                                                                                                                                                                                                                                                                                        
+  left: 450px;                                                                                                                                                                                                                                                                                                                                                                             
+  margin-top: 2%;
+
+  color: #FFFFFF;
+                                                                                                                                                                                                                                                                                                                                                                               
+}
+                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                
+.DonationHeader2{                                                                                                                                                                                                                                                                                                                                                                         
+  position: absolute;                                                                                                                                                                                                                                                                                                                                                                                 
+  width: 100%;                                                                                                                                                                                                                                                                                                                                                                              
+  height: 252px;                                                                                                                                                                                                                                                                                                                                                                                     
+  left: 3px;                                                                                                                                                                                                                                                                                                                                                                                     
+  margin-top:1.5%;
+                                                                                                                                                                                                                                                                                                                                                                                         
+}
+    
+.DonationHeader2 h2{
+  position: absolute;
+  width: 542px;
+  height: 127px;
+  left: 39%;
+  top: 90px;
+  font-size: 80px;
+
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 1000;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+letter-spacing: 0.37em;
+
+color: #0B0B0B;
+}
+                                                                                                                                                                                                                                                                                                                                                                                          
+.DonationHeader2 img{
+                                                                                                                                                                                                                                                                                                                                                                           
+  width:100%;
+  height: auto;
+                                                                                                                                                                                                                                                                                                                                                                                              
+}
+.items li{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 20px;
+    gap: 397px;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+    list-style-type:none;
+    display:inline-block;
+    list-style-type:none;
+    text-align:justify;
+    color: #FFFFFF;
+    letter-spacing: 0.06em
+}
+
+.list-header {
+  list-style-type:none;
+  display:inline-block;
+  list-style-type:none;
+  text-align:justify;
+  color: #FFFFFF;
+  letter-spacing: 0.26em;
+  margin-bottom: 1%;
+  margin-top: 5%;
+  padding: 1%;
+
+}
+
+.list-item {
+  font-family: 'Maitree', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.245em;
+  list-style-type:none;
+  padding: 2%;
+  margin-left: 2%;
+
+  
+  color: #FFFFFF;
+}
+
+.list {
+  width: 100%;
+  margin-left: 14%;
+}
+
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    padding: 15px;
+    gap: 13px;
+
+    margin-left: 14%;
+    /* margin-right: 9%; */
+
+    font-family: 'Maitree', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.245em;
+
+    list-style-type:none;
+    
+    color: #FFFFFF;
+
+}
+
+.ourservices{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 15px;
+    gap: 20px;
+
+
+
+
+    font-family: 'Maitree', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.245em;
+    list-style-type:none;
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+
+.footer2{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    margin-top: 2000px;
+
+    background: rgba(27, 27, 27, 0.96);
+}
+
+.footer2 p{
+    position: absolute;
+    font-family: 'Maitree', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.245em;
+    left: 38%;
+    top:20%;
+
+color: #FFFFFF;
+}
+
+.footer2 p a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+
+
+
+.simg1{
+  max-width: 100%;
+  margin-top: 1.5%;
+  /* height: auto; */
+  overflow: hidden;
+}
+
+.simg1 img {
+  width: 100%;
+  /* height: 100%; */
+  margin-top: -40%;
+}
+
+.simg2{
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.simg2 img {
+  width: 105%;
+  height: 100%;
+  margin: -10px -5px 0px -10px
+}
+
+.imgnsbm{
+  position: relative;
+  align-items: center;
+/* width: 80%; */
+/* height: 85px; */
+/* left: 252px; */
+  margin-top: 10%;
+
+}
+
+.imgnsbm img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.header2{
+  position: absolute;
+width:100%;
+height: 80px;
+left: 0px;
+top: 79px;
+
+background: rgba(60, 100, 108, 0.78);
+}
+
+.header2 p{
+  position: absolute;
+  width: 846px;
+  height: 25px;
+  left: 450px;
+  margin-top: 2%;
+  color: #FFFFFF;
+}
+
+.DonationHeader2{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  margin-top:1.5%;
+}
+
+.DonationHeader2 img{
+  width:100%;
+  height:252px;
+}
+
+.bootstrap-crd{
+  margin-top: 5%;
+  margin-left: 14%;
+}
+
+.bootstrap-crd-row{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+margin-bottom: 5%;
+  padding: 0px;
+  gap: 179px;
+}
+
+.bootstrap-crd-col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 200px;
+
+}
+
+.blog-bg{
+  max-width: 100%;
+  margin-top: 5%;
+  height: auto;
+  overflow: hidden;
+
+}
+
+
+
+
+.AboutHeader2{
+  position: absolute;                                                                                                                                                                                                                                                                                                                                                                                 
+  width: 100%;                                                                                                                                                                                                                                                                                                                                                                              
+  height: 200px;                                                                                                                                                                                                                                                                                                                                                                                     
+  margin-top:1.5%;
+}
+
+.AboutHeader2 img{
+  width:100%;
+  height: auto;
+}
+
+.AboutHeader2 h2{
+  position: absolute;
+width: 542px;
+height: 127px;
+left: 499px;
+top: 90px;
+font-size: 80px;
+
+font-family: 'Mina';
+font-style: normal;
+font-weight: 700;
+text-align: center;
+letter-spacing: 0.35em;
+
+color: #150303;
+
+}
+
+.mid-bar{
+  position: absolute;
+width: 100%;
+height: 400%;
+left: 0%;
+top: 600%;
+
+background: #f0efef;
+}
+
+.mid-bar-don{
+  position: absolute;
+width: 100%;
+height: 100%;
+left: 0%;
+top: 124%;
+
+background: rgba(203, 245, 254, 0.4);
+}
+
+.mid-bar-don p{
+  position: absolute;
+margin-left: 10%;
+margin-right: 8%;
+  top: 28%;
+  
+  font-family: 'Monda';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.21em;
+  
+  color: #000000;
+}
+
+.mid-bar h3{
+  position: absolute;
+width: 295px;
+height: 44px;
+left: 40%;
+top: 18%;
+
+font-family: 'Mate SC';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+
+text-align: center;
+letter-spacing: 0.245em;
+
+color: #000000;
+
+}
+
+.mid-bar p{
+  position: absolute;
+left: 15%;
+top: 46%;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.245em;
+
+color: #000000;
+}
+
+.Team-Mem-bar{
+  position: absolute;
+width: 100%;
+height: 2000%;
+left: 0px;
+top: 1000%;
+
+background: #31383A;
+}
+
+.Team-Mem-bar h3{
+  position: absolute;
+left: 42%;
+top: 4%;
+
+font-family: 'Mina';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 127px;
+text-align: center;
+letter-spacing: 0.17em;
+
+color: #FFFFFF;
+}
+
+
+
+.elipse-photo img{
+  width: 235px;
+  height: 235px;
+  border-radius: 125px;
+  background-color: #fff;
+  margin: 30px;
+
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+#donation-con img{
+  position: absolute;
+width: 30%;
+height: auto;
+top: 564px;
+left:35%;
+margin-top: 5%;
+
+background: url(dogs1.jpg), rgba(249, 248, 248, 0.01);
+border-radius: 100px;
+}
+
+#donation-btn {
+  position: absolute;
+width: 15%;
+height: 100%;
+left: 42.5%;
+top: 1068px;
+margin-top: 5%;
+
+border-radius: 33px;
+}
+
+.don-gateway {
+  position: absolute;
+  width: 100%;
+  height: 350%;
+  left: 0%;
+  top: 1900%;
+  
+  background: #f0efef;
+}
+
+.don-gateway h2{
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  left: 40%;
+  margin-top: 0.5%;
+  font-size: 80px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 28px;
+  line-height: 59px;
+}
+
+.don-g-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 3%;
+  
+  position: absolute;
+  left: 6%;
+  right:5%;
+  top: 2030%;
+}
+
+.nsbm-para p{
+width:50%;
+}
+
+.s-tiles{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+position: absolute;
+width: 55%;
+height: 165%;
+left: 25%;
+top: 160%;
+
+}
+
+.s-tile-dark {
+  width:100%;
+  height:100%;
+  background: #79C1C1;
+}
+
+.s-tile-lite{
+  width:100%;
+  height:100%;
+  background: #BDE4E4;
+}
+
+#tile-img {
+  width:25%;
+  height:25%;
+  margin-left: 35%;
+  margin-top: 22%;
+  align-content: center;
+}
+
+#tile-title {
+  font-family: 'Martel';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.06em;
+text-align: center;
+color: #000000;
+
+margin-top:6%;
+
+}
+
+.newsalert {
+  width:80%;
+  height: 30%;
+}
+
+#news-Title {
+
+  position: absolute;
+width: 708px;
+height: 154px;
+left: 28%;
+top: 820%;
+
+font-family: 'Maitree';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 159.7%;
+/* or 77px */
+
+text-align: center;
+letter-spacing: 0.225em;
+
+color: #000000;
+}
+
+#news-form {
+  width:30%;
+  height:50%;
+  margin-left:35%;
+  margin-top:0%;
+}
+
+#submit {
+  width:35%;
+  height: 10%;
+}
+
+.AdoptionHeader2{                                                                                                                                                                                                                                                                                                                                                                         
+  position: absolute;                                                                                                                                                                                                                                                                                                                                                                                 
+  width: 100%;                                                                                                                                                                                                                                                                                                                                                                              
+  height: 150%;                                                                                                                                                                                                                                                                                                                                                                                     
+  left: 3px;                                                                                                                                                                                                                                                                                                                                                                                     
+  margin-top:1%;
+                                                                                                                                                                                                                                                                                                                                                                                         
+}
+    
+.AdoptionHeader2 h2{
+  position: absolute;
+  width: 542px;
+  height: 127px;
+  left: 39%;
+  top: 90px;
+  font-size: 80px;
+  font-weight: 500px;
+
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 1000;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+letter-spacing: 0.37em;
+
+color: #ffffff;
+}
+                                                                                                                                                                                                                                                                                                                                                                                          
+.AdoptionHeader2 img{
+                                                                                                                                                                                                                                                                                                                                                                           
+  width:100%;
+  height: auto;
+                                                                                                                                                                                                                                                                                                                                                                                              
+}
+
+
+
+
+.ad-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: -5%;
+  
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 3%;
+  top: 490%;
+  
+}
+
+
+
+
+
+#adopt-Title {
+
+  position: absolute;
+width: 708px;
+height: 154px;
+left: 28%;
+top: 820%;
+
+font-family: 'Maitree';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 159.7%;
+/* or 77px */
+
+text-align: center;
+letter-spacing: 0.225em;
+
+color: #000000;
+}
+
+#adopt-form {
+  width:30%;
+  height:50%;
+  margin-left:35%;
+  margin-top:60%;
+}
+
+#req {
+  width:35%;
+  height: 10%;
+}
+
+
