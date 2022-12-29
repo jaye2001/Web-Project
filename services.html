@@ -85,29 +85,32 @@
                 <h4 id="tile-title">Pet Clinic</h4>
             </div>
             <div class="s-tile-lite">
-                <h4></h4>
+                <img src="Res/store.svg" id="tile-img">
+                <h4 id="tile-title">Nearest Pet Store</h4>
             </div>
         </div>
     </div>
 
     <div class="container-xl">
-        <div class="newsalert">
-            <h3 id="news-Title">Subscribe for our free news alert service</h3>
-
-            <form id="news-form" onsubmit="return validateNews()">
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address:</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputName">Name:</label>
-                  <input type="text" id="name"  class="form-control" placeholder="Your Name">
-                </div>
-
-                <button type="submit" id="submit" class="btn btn-primary">Subscribe</button>
-            </form>
-
+        <div class="alert-details">
+            <div class="newsalert">
+                <h3 id="news-Title">Subscribe for our free news alert service</h3>
+    
+                <form id="news-form" onsubmit="return validateNews()" action="newsAlert.php" method="post">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address:</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputName">Name:</label>
+                      <input type="text" id="name"  class="form-control" placeholder="Your Name">
+                    </div>
+    
+                    <button type="submit" id="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+    
+            </div>
         </div>
 
     </div>
