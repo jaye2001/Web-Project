@@ -970,8 +970,25 @@ border-radius: 33px;
   top: 2030%;
 }
 
-.nsbm-para p{
-width:50%;
+.nsbm-para {
+  position: absolute;
+  width: 75%;
+  height: 500%;
+  left: 15%;
+  right: 15%;
+  margin-top: 4%;
+
+
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 166.95%;
+  /* or 35px */
+
+  letter-spacing: 0.135em;
+
+  color: #000000;
 }
 
 .s-tiles{
