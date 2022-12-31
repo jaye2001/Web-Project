@@ -1171,3 +1171,26 @@ color: #000000;
 }
 
 
+.s-tile-dark {
+
+  transition: all 0.3s ease; 
+}
+
+.s-tile-dark:hover {
+  
+  transform: scale(1.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  cursor: pointer; 
+}
+
+.s-tile-lite {
+
+  transition: all 0.3s ease; 
+}
+
+.s-tile-lite:hover {
+  
+  transform: scale(1.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  cursor: pointer; 
+}
