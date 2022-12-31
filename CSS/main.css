@@ -315,7 +315,13 @@ letter-spacing: 0.03em;
     padding: 2%;                                                                                                  
     margin-left: -1%;                                                                                                                                                                                                 
     color: #FFFFFF;
+    
  }
+ 
+ .list-item a{
+  text-decoration: none;
+  color: #FFFFFF ;
+}
                                                                                                         
                                                                                                         
  .list {
