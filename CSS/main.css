@@ -250,12 +250,12 @@ letter-spacing: 0.03em;
 }
 
 
-.footer1{
+/* .footer1{
     position: absolute;
     display: flex;
     width: 100%;
     height: 280px;
-    margin-top: 50%;
+    margin-top: 13%;
     margin-bottom: 0%;
     background: #151E2D;
     backdrop-filter: blur(50px);
@@ -263,11 +263,11 @@ letter-spacing: 0.03em;
 .footer2 {
   position: absolute;
   width: 100%;
-  height: 200px;
-  margin-top: -50%;
+  height: 150px;
+  margin-top: 25%;
                                                                                                                                                                                                                                                            
  background: rgba(27, 27, 27, 0.96);
-}
+} */
 
 .footitems li{
     display: flex;
@@ -276,7 +276,7 @@ letter-spacing: 0.03em;
     padding: 20px;
     gap: 397px;
     justify-content: space-between;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 10%;
                                         
                                         
@@ -295,6 +295,7 @@ letter-spacing: 0.03em;
     text-align:justify;
     color: #FFFFFF;
     letter-spacing: 0.26em;
+    margin-left: -2%;
     margin-bottom: 5%;
     margin-top: 5%;
     padding: 1%;
@@ -312,7 +313,7 @@ letter-spacing: 0.03em;
                                                                                                 
     list-style-type:none;                                                                                               
     padding: 2%;                                                                                                  
-    margin-left: 2%;                                                                                                                                                                                                 
+    margin-left: -1%;                                                                                                                                                                                                 
     color: #FFFFFF;
  }
                                                                                                         
@@ -621,15 +622,7 @@ color: #0B0B0B;
 
 
 
-.footer2{
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    margin-top: 2000px;
 
-    background: rgba(27, 27, 27, 0.96);
-}
 
 .footer2 p{
     position: absolute;
@@ -744,7 +737,7 @@ background: rgba(60, 100, 108, 0.78);
 margin-bottom: 5%;
   padding: 0px;
   gap: 179px;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -757,6 +750,8 @@ margin-bottom: 5%;
   
 
 }
+
+
 
 .blog-bg{
   max-width: 100%;
@@ -897,7 +892,57 @@ letter-spacing: 0.17em;
 color: #FFFFFF;
 }
 
+.elipse-row {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+width:auto;
+padding: 0px;
+gap: 150px;
 
+
+
+
+width: 235px;
+height: 235px;
+border-radius: 125px;
+background-color: rgba(255, 254, 254, 0);
+margin: 30px;
+
+margin-top: 15%;
+margin-left: 12%;
+
+}
+
+
+.elipse-col {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+width:auto;
+padding: 0px;
+gap: 150px;
+
+margin-top: 10%;
+margin-left: 12%;
+
+
+}
+
+#elipse-col2 {
+  margin-top: 3%;
+  margin-left: 39.5%;
+}
+
+.elipse-col h5{
+  color: #FFFFFF;
+  margin-left: 19%;
+}
+
+.elipse-row h5{
+  color: #FFFFFF;
+  margin-left: 19%;
+}
 
 .elipse-row img {
   width: 235px;
@@ -909,13 +954,17 @@ color: #FFFFFF;
   margin-top: 15%;
   margin-left: 10%;
 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 25px;
-  
-  
+}
+
+.elipse-col img {
+  width: 235px;
+  height: 235px;
+  border-radius: 125px;
+  background-color: #fff;
+  margin: 30px;
+
+  margin-top: 15%;
+  margin-left: 10%;
 
 }
 
@@ -1049,6 +1098,13 @@ margin-top:6%;
 
 }
 
+#tile-title a{
+    color:#000000;
+    text-decoration: none; 
+
+}
+
+
 
 
 
@@ -1079,8 +1135,8 @@ color: #000000;
 #news-form {
   width:30%;
   height:50%;
-  margin-left:35%;
-  margin-top:0%;
+  margin-left:38%;
+  margin-top:22%;
 }
 
 #submit {
@@ -1206,3 +1262,4 @@ color: #000000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   cursor: pointer; 
 }
+
