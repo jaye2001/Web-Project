@@ -1,28 +1,21 @@
 <?php
 
+$db = mysqli_connect('localhost', 'root', '', 'happy_tails');
 
-$host = "localhost";
-$user = "root";
-$password = "";
-$dbname = "happy_tails";
 
-try {
-    $conn = new PDO($dsn, $user, $password);
-} catch (PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
+if (mysqli_connect_errno()) {
+  echo 'Failed to connect to the database: ' . mysqli_connect_error();
+  exit();
 }
 
 
-$name = $_POST['name'];
 $email = $_POST['email'];
+$name = $_POST['name'];
 
 
-$sql = "INSERT INTO news-alert(name, email) VALUES (?, ?)";
-$stmt = $conn->prepare($sql);
-$stmt->bindValue(1, $name, PDO::PARAM_STR);
-$stmt->bindValue(2, $email, PDO::PARAM_STR);
-$stmt->execute();
+$sql = "INSERT INTO news-alert (email, name) VALUES ('$email', '$name')";
 
-echo "Form data submitted successfully!";
+// execute
+$result = mysqli_query($db, $sql);
 
 ?>

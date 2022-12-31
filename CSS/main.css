@@ -86,11 +86,16 @@ background: rgba(220, 233, 240, 0.06);
 .navitems-j li a{
     color: #000000;
     text-decoration: none;
+    transition: all 0.3s ease;
 
 }
 
 .navitems-j a:hover {
-    background-color: #cec5ce; 
+  background-color: rgb(251, 251, 251); 
+  color: rgb(0, 0, 0); 
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); 
+  cursor: pointer;
   }
 
 
@@ -186,10 +191,13 @@ background: rgba(220, 233, 240, 0.06);
       left: 136px;
       top: 850%;
 
+      transition: all 0.3s ease;
+
 }
 
-.hmdg2 img:hover {
-  transform: translate(-5px, 5px);
+.hmdg2:hover {
+  transform: scale(1.1); 
+  cursor: pointer;
 }
 
 .home-h4{
@@ -1173,6 +1181,7 @@ color: #000000;
 
 .s-tile-dark {
 
+  box-shadow: 0 4px 8px rgba(93, 90, 90, 0.1);
   transition: all 0.3s ease; 
 }
 
@@ -1185,6 +1194,7 @@ color: #000000;
 
 .s-tile-lite {
 
+  box-shadow: 0 4px 8px rgba(93, 90, 90, 0.1);
   transition: all 0.3s ease; 
 }
 
