@@ -35,10 +35,9 @@ function validateNews() {
   
     if (selectBox == 'select a dog' || name == '' || email == '' || phone == '') {
       alert('Please fill out all required fields');
-      return false; // prevent the form from being submitted
+      return false; 
     } else {
-      // form is valid, submit the form
-      alert("We will contact you within 24 hours Thank You.");
+
  
     }
   }
