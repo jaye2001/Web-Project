@@ -62,65 +62,80 @@
 
 
     
-            <div class="container-sm">
-                <div class="slider-j">
-                   <!-- <div class="container-sm"> -->
-                        <div class="home_h1"><h1>Welcome to Happy Tails</h1></div>
-                   <!-- </div>  -->
-
-                    <div class="slide-j">
-                        <img src="Res/slide1.svg" class="slide-image">
-                    </div>
-                
-                    <div class="slide-j">
-                        <img src="Res/slide2.svg" class="slide-image">
-                    </div>
-                
-                    <div class="slide-j">
-                        <img src="Res/slide3.svg" class="slide-image">
-                    </div>
-                
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-                
-                </div>
-                <br>
-                
-                <div class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
+        <div class="container-sm">
+            <div class="slider-j">
+              <!-- <div class="container-sm"> -->
+              <div class="home_h1"><h1>Welcome to Happy Tails</h1></div>
+              <!-- </div>  -->
+          
+              <div class="slide-j">
+                <img src="Res/slide1.svg" class="slide-image">
+              </div>
+          
+              <div class="slide-j">
+                <img src="Res/slide2.svg" class="slide-image">
+              </div>
+          
+              <div class="slide-j">
+                <img src="Res/slide3.svg" class="slide-image">
+              </div>
+          
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+          
             </div>
-        
-        <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("slide-j");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        }
-        </script>
+            <br>
+          
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+          
+          <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+          
+            
+            setInterval(function() {
+              plusSlides(1);
+            }, 5000); 
+          
+            // OR
+          
+            function startSlideshow() {
+              plusSlides(1);
+              setTimeout(startSlideshow, 5000);
+            }
+          
+            startSlideshow();
+          
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+          
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+          
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("slide-j");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+          </script>
+          
 
         <!-- <div class="container-sm">
              <img src="Res/hmdg2.svg" class="hmdg2" alt="puppy">
